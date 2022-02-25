@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins&family=Sacramento&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #3a6186,#89253e);
+}
+.box{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+}
+legend{
+    margin-bottom: 6px;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.genero{
+    padding: 10px;
+}
+fieldset{
+    border: 3px solid white;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: white;
+    font-size: 16px;
+    width: 99%;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -8px;
+    font-size: 13px;
+    color: #aad0f3;
+}
+#data_nascimento{
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 10px;
+}
+#submit{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right, rgba(58, 97, 134, 0.4),rgba(137, 37, 62, 0.4));
+}

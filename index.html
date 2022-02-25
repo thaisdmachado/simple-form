@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="box">
+    <form action="">
+        <fieldset>
+            <legend><strong>Formulário</strong></legend>
+            <div class="inputBox">
+                <input type="text" name="nome" id="nome" class="inputUser" maxlength="35" required>
+                <label for="nome" class="labelInput">Nome completo</label>
+            </div>
+            <div class="inputBox">
+                <input type="email" name="email" id="email" class="inputUser" maxlength="35" required>
+                <label for="email" class="labelInput">Email</label>
+            </div>
+            <div class="inputBox">
+                <input type="tel" name="telefone" id="telefone" class="inputUser" maxlength="11" required>
+                <label for="telefone" class="labelInput">Telefone</label>
+            </div>
+            <div class="genero">
+            <p>Gênero</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+            </div>
+            <div class="inputBox">
+                <label for="data_nascimento">Data de Nascimento</label>
+                <input type="date" name="data_nascimento" id="data_nascimento" required>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="cidade" id="cidade" class="inputUser" maxlength="35" required>
+                <label for="cidade" class="labelInput">Cidade</label>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="estado" id="estado" class="inputUser" maxlength="35" required>
+                <label for="estado" class="labelInput">Estado</label>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="endereco" id="endereco" class="inputUser" maxlength="35" required>
+                <label for="endereco" class="labelInput">Endereço</label>
+            </div>
+            <input type="submit" name="submit" id="submit">
+        </div>
+        </fieldset>
+    </form>
+</body>
+</html>
